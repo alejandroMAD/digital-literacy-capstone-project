@@ -1,0 +1,128 @@
+/* Header Animations and Buttons */
+
+.header-wrapper > .nav-bar > .nav-bar-links :nth-child(1) a {
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+}
+
+.header-wrapper > .nav-bar > .nav-bar-links :nth-child(1) a:hover {
+    border-bottom: 3px solid #57dbff;
+}
+
+.header-wrapper > .nav-bar > .nav-bar-links :nth-child(2) a {
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+}
+
+.header-wrapper > .nav-bar > .nav-bar-links :nth-child(2) a:hover {
+    border-bottom: 3px solid #f4e163;
+}
+
+.header-wrapper > .nav-bar > .nav-bar-links :nth-child(3) a {
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+}
+
+.header-wrapper > .nav-bar > .nav-bar-links :nth-child(3) a:hover {
+    border-bottom: 3px solid #47cf73;
+}
+
+.header-wrapper > .nav-bar > .nav-bar-links :nth-child(4) a {
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+}
+
+.header-wrapper > .nav-bar > .nav-bar-links :nth-child(4) a:hover {
+    border-bottom: 3px solid #ae63e4;
+}
+
+.header-wrapper > .nav-bar > .nav-bar-links > #spark a:hover {
+    color: white;
+}
+
+.header-wrapper > .actions-bar > .action-button > .btn {
+    background-color: #343436;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0px 5px;
+    padding: 13px 15px;
+    border: 0px;
+    border-radius: 3px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.header-wrapper > .actions-bar > .action-button > .btn:hover {
+    background-color: #4d4d50;
+}
+
+.header-wrapper > .actions-bar > .action-button > .btn:active {
+    margin: 1px 5px -1px 5px;
+}
+
+.header-wrapper > .actions-bar > .search-button > .searchbtn {
+    background-color: transparent;
+    color: #7b7e8b;
+    font-size: 1.7em;
+    font-weight: 700;
+    margin: 0px 5px;
+    padding: 8px 12px;
+    border: 0px;
+    border-radius: 3px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.header-wrapper > .actions-bar > .search-button > .searchbtn:hover {
+    color: white;
+}
+
+/* Main Content Animations and Buttons */
+.main-content-wrapper > .promo-content-wrapper > .promo-buttons > #promo-signup-btn {
+    background-color: #47cf73;
+    color: black;
+    font-size: 2em;
+    margin: 0px 10px 0px 0px;
+    padding: 12px 17px;
+    border: 0px;
+    border-radius: 3px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.main-content-wrapper > .promo-content-wrapper > .promo-buttons > #promo-learnmore-btn {
+    background-color: #111;
+    color: white;
+    font-size: 2em;
+    padding: 12px 17px;
+    border: 0px;
+    border-radius: 3px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.main-content-wrapper > .promo-content-wrapper > .promo-buttons > #promo-signup-btn:hover {
+    background-color: #2fb45a;
+}
+
+.main-content-wrapper > .promo-content-wrapper > .promo-buttons > #promo-signup-btn:active {
+    margin: 1px 10px -1px 0px;
+}
+
+.main-content-wrapper > .promo-content-wrapper > .promo-buttons > #promo-learnmore-btn:hover {
+    background-color:#1e1e1e;
+}
+
+.main-content-wrapper > .promo-content-wrapper > .promo-buttons > #promo-learnmore-btn:active {
+    margin: 1px 0px -1px 0px;
+}
+
+.main-content-wrapper > .project-sample-wrapper > .project-text :nth-child(2):hover {
+    color: white;
+}
+
+/* Footer Animations */
+.footer-links-wrapper > .footer-link:hover {
+    background-color: #434343;
+}
